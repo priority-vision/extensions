@@ -12,11 +12,11 @@ styles.textContent = `
         --snow-fall-color: rgba(255, 255, 255, 1);
     }
 
-    [data-color-scheme="dark"]:root {
+    [data-color-scheme="dark"] {
         --snow-fall-color: rgba(255, 255, 255, .2);
     }
     @media (prefers-color-scheme: dark) {
-        [data-color-scheme="system"]:root {
+        [data-color-scheme="system"] {
             --snow-fall-color: rgba(255, 255, 255, .2);
         }
     }
