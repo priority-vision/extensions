@@ -38,10 +38,10 @@ To add custom code, follow these steps:
         content: "";
         position: absolute;
         inset: -50%;
-        animation: noise 1.4s steps(3) both infinite;
+        animation: noise 0.3s steps(4) both infinite;
         background-image: var(--noise-image);
         background-size: 40px;
-        opacity: 0.4;
+        opacity: 0.3;
     }
 
     @keyframes noise {
