@@ -1,7 +1,6 @@
 // snow-effects.js
 import 'https://cdn.jsdelivr.net/npm/@zachleat/snow-fall@1.0.3/snow-fall.min.js';
 
-// Add styles with dark mode support.
 const styles = document.createElement('style');
 styles.textContent = `
     snow-fall {

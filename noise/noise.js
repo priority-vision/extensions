@@ -1,8 +1,8 @@
 const styles = document.createElement('style');
 styles.textContent = `
     :root {
-        --noise-image: url(https://cdn.jsdelivr.net/gh/priority-vision/extensions/noise/noise.svg);
-        --noise-image-white: url(https://cdn.jsdelivr.net/gh/priority-vision/extensions/noise/noise-white.svg);
+        --noise-image: url(https://cdn.jsdelivr.net/gh/priority-vision/extensions@0.0.1/noise/noise.svg);
+        --noise-image-white: url(https://cdn.jsdelivr.net/gh/priority-vision/extensions@0.0.1/noise/noise-white.svg);
     }
 
     /* Dark mode noise image */

@@ -16,28 +16,7 @@ To add custom code, follow these steps:
 ```html
 <!-- Snow Fall Effect -->
 <script type="module" src="https://cdn.jsdelivr.net/npm/@11ty/is-land@4.0.0/is-land.min.js"></script>
-<script type="module" src="https://cdn.jsdelivr.net/npm/@zachleat/snow-fall@1.0.3/snow-fall.min.js"></script>
-
-<style>
-    snow-fall {
-        z-index: 1;
-    }
-
-    /* Snow color */
-    :root {
-        --snow-fall-color: rgba(255, 255, 255, 1);
-    }
-
-    /* Dark mode snow color */
-    [data-color-scheme="dark"]:root {
-        --snow-fall-color: rgba(255, 255, 255, .2);
-    }
-    @media (prefers-color-scheme: dark) {
-        [data-color-scheme="system"]:root {
-            --snow-fall-color: rgba(255, 255, 255, .2);
-        }
-    }
-</style>
+<script type="module" src="https://cdn.jsdelivr.net/gh/priority-vision/extensions@0.0.1/snow-fall/snow-fall.js"></script>
 
 <is-land on:media="(prefers-reduced-motion: no-preference)" on:idle>
     <snow-fall></snow-fall>
